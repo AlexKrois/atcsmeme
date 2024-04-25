@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(27, 27, 27);
+    color: white;
+    min-height: 600px;
+}
+
+
+.card-body {
+    --bs-card-color: white;
+}
+
+.card {
+    --bs-card-bg: rgb(51, 51, 51);
+    transition: 0.2s;
+}
+
+.card:hover {
+    --bs-card-bg: rgb(78, 78, 78);
+}
+
+main {
+    flex: 1;
+}
+
+/* .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+    color: white;
+} */
+
+.contact {
+    background-color: white !important;
+}
+
+.navbar {
+    --bs-navbar-color: white;
+    --bs-navbar-hover-color: rgb(185, 185, 185);
+    --bs-navbar-active-color: rgb(136, 136, 136);
+    --bs-navbar-nav-link-padding-x: 1rem;
+}
+
+.nav-item a {
+    background-color: rgba(46, 46, 46, 1);
+    margin: 5px;
+}
+
+/* .flag h2{
+    background: #EF3340;
+    background: linear-gradient(to bottom, rgba(239, 51, 64, 1) 0%, rgba(239, 51, 64, 1) 33%, #FFFFFF 34%, #FFFFFF 66%, rgba(239, 51, 64, 1) 67%, rgba(239, 51, 64, 1) 100%);
+    color:black;
+    max-width: fit-content;
+} */
+.flag {
+    /* background: -webkit-linear-gradient(#ef3340 0%, #ef3340 33%, #ffffff 34%, #ffffff 66%, #ef3340 67%, #ef3340 100%) 100% 60%/100% 50%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(180deg, #ef3340, #ef3340, #ffffff, #ffffff, #ef3340, #ef3340)
+}
+
+.table {
+    --bs-table-color: white;
+    --bs-table-bg: rgb(43, 42, 42) !important;
+}

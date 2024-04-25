@@ -1,0 +1,4 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+User-agent: *
+Sitemap: https://atcs.meme/sitemap.xml
