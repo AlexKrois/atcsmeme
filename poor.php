@@ -70,7 +70,7 @@ include ("head.php")
 
                 <div class="col-sm">
                     <div class="d-flex justify-content-center flex-column align-items-center">
-                    <h5>Random lustige .at CS Fotos, refresh für neues, oder <a href="../img">hier</a> klicken
+                    <h5>Random lustige .at CS Fotos, refresh für neues, oder <a href="../atcsimgs">hier</a> klicken
                     </h5>
                     <div id="banner-load" class="d-flex justify-content-center flex-column align-items-center">
                     </div>
